@@ -1,0 +1,35 @@
+﻿
+@model CustomerManager2.Data.ApplicationDbContext
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#first" aria-controls="first" role="tab" data-toggle="tab">Contacts</a>
+        </li>
+        <li role="presentation">
+            <a href="#second" aria-controls="second" role="tab" data-toggle="tab">Departaments</a>
+        </li>
+        <li role="presentation">
+            <a href="#third" aria-controls="second" role="tab" data-toggle="tab">Users</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="first">
+            @await Component.InvokeAsync("ContactsDetail")
+        </div>
+        <div role="tabpanel" class="tab-pane" id="second">
+            @await Component.InvokeAsync("Departament")
+        </div>
+        <div role="tabpanel" class="tab-pane" id="third">
+            @await Component.InvokeAsync("LoginUser")
+        </div>
+    </div>
+</div>
+
+

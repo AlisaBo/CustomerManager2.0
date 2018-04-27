@@ -1,0 +1,56 @@
+﻿@model CustomerManager2.Models.CustomerModels.CustomerInformation
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>CustomerInformation</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Comments)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Comments)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.IsMunicipalityCustomer)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.IsMunicipalityCustomer)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfSchools)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOfSchools)
+        </dd>
+    </dl>
+</div>

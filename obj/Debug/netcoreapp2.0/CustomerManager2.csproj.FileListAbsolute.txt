@@ -1,0 +1,12 @@
+D:\VS_Projects\CustomerManager2\CustomerManager2\bin\Debug\netcoreapp2.0\CustomerManager2.deps.json
+D:\VS_Projects\CustomerManager2\CustomerManager2\bin\Debug\netcoreapp2.0\CustomerManager2.runtimeconfig.json
+D:\VS_Projects\CustomerManager2\CustomerManager2\bin\Debug\netcoreapp2.0\CustomerManager2.runtimeconfig.dev.json
+D:\VS_Projects\CustomerManager2\CustomerManager2\bin\Debug\netcoreapp2.0\CustomerManager2.dll
+D:\VS_Projects\CustomerManager2\CustomerManager2\bin\Debug\netcoreapp2.0\CustomerManager2.pdb
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\CustomerManager2.csprojResolveAssemblyReference.cache
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\CustomerManager2.csproj.CoreCompileInputs.cache
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\CustomerManager2.AssemblyInfoInputs.cache
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\CustomerManager2.AssemblyInfo.cs
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\CustomerManager2.dll
+D:\VS_Projects\CustomerManager2\CustomerManager2\obj\Debug\netcoreapp2.0\CustomerManager2.pdb

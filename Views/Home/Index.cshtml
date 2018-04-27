@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <h2>Hello, Admin</h2>
+    <h3>You have possibility to edit customer data</h3>
+    <h3>Click <a class="btn btn-default" href="~/adminpage/Index">here</a> to get started</h3>
+}
+
+@if (User.IsInRole("Customer"))
+{
+    <h2>Hello, Customer</h2>
+    <h3>You have possibility to edit data for users, which belong to you</h3>
+    <h3>Click <a class="btn btn-default" href="~/customerpage/Index">here</a> to get started</h3>
+}
+@if (User.IsInRole("User"))
+{
+    <h2>Hello, User</h2>
+    <h3>You may see the information about your customer</h3>
+    <h3>Click <a class="btn btn-default" href="~/userpage/Index">here</a> to get started</h3>
+}
